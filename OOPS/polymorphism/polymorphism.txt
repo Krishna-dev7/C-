@@ -1,0 +1,12 @@
+👉🏻🥷🏻 Most imp points to ponder⚠️:
+1.  Abstract is the base class, which served as base class and it consist atleast one virtual functions.
+2.  Abstract class has no objects but it may have pointers or references.
+3.  Understanding dynamic memory allocation is important in c++.
+
+
+Dynamic memory allocations 👋🏻
+
+👉🏻.  it is process of allocating memory dynamically at the run time.
+    For example specifying size of array.
+
+👉🏻.  Two keywords used to allocate memory and to deallocate memory are new and delete respectively.

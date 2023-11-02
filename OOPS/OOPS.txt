@@ -1,0 +1,22 @@
+1. Static member😁👋🏻
+Static data member:
+👉🏻  It is a special data member of class , which is declared with special 'static' keyword.
+👉🏻  This member has only single copy which shared with all of their class objects. 
+👉🏻  It is always initialize with zero and no other value is permitted to initialize.⚠️
+👉🏻  And this member automatically initialize with zero when first class object has been created.⚠️
+👉🏻  It is independent of all objects.
+👉🏻  After each class we need to re-declare it by using scope resolution operator(::) , because it cannot 
+    initialize within the class.
+
+
+Static member function:
+    Static member function is also an special member function which is declared with 'static' keyword.
+    This member function can only access to the static data members , and no other member is accessible.
+    Static members are independent of objects so to access it , we need to use class_name with scope resolution operator.
+    Syntax: to call function.
+        class_name::Function();
+
+2. scope resolution operator(::):
+    Use to define function outside of class.
+    Use to access static member of class.
+    So, we can conclude that this operator is used to access something outside of their scope.

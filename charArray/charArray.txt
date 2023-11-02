@@ -1,0 +1,21 @@
+⚠️Char array have some limitaions:
+
+1. static size or size must be allocated first.
+2. null character or terminator '\0'.
+3. It completely behave different with cin operator.
+
+🅱️Methods to reverse a string.
+
+➡️  while(s<e){
+        swap(name[s++], name[e--]);
+    }
+
+
+⚠️In case of arrays.
+    Function always take their address but behave different with int array and char array;
+    But in other case it simply copy their values.
+    
+
+⚠️In case of objects while behave as variables of class type:
+    So in that case we cannot get their address with their name only
+    and we need to use reference operator.

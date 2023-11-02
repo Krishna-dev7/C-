@@ -1,0 +1,24 @@
+Dynamic memory allocation is process of allocating memory dynamically at the run time.
+
+Points to keep remember while using dynamic memory allocation.
+Whenever we create array of any data type we need to specify their size, in case we need to allocate memory dynamically then 
+so we will definetly use such allocations.
+
+On static allocation compiler will allocate stack memory, but in dynamic allocation it will allocate heap memory
+
+It can be achieved by using "new" keyword, but it will return us the address of the first index of array.
+so we will use pointer of the same class or data type.
+
+Syntax:
+    Data_type *pointer_name = new Data_type[size];
+
+    For example:
+        Class1 *c = new Class1[n];
+
+
+And the allocated memory can easily freed up by using "delete" keyword.
+
+Syntax: 
+    delete pointer;
+    or 
+    delete pointer[];
