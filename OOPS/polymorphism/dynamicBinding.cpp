@@ -2,7 +2,7 @@
 using namespace std;
 class Parent{
 public: 
-    void display(){
+    virtual void display(){
         cout<< "I am from parent class" << endl;
     }
 };
@@ -15,6 +15,8 @@ public:
 
 int main(){
     child c;
+    Parent p;
+    p.display();
     c.display();
 
     return 0;
